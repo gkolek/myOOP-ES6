@@ -14,7 +14,7 @@
 
 // for (const i = 0; i < 5; i++) {
 //     setTimeout(function () {
-//         console.log(i)
+//         console.lo
 //     }, 1000
 //     )
 // }
