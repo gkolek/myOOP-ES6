@@ -1,0 +1,20 @@
+.accordion-group {
+    margin-bottom: 40px;
+}
+
+.accordion__bar {
+    background-color: #f0f0f0;
+    border: 1px solid #d0d0d0;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.accordion__content {
+    padding: 15px;
+    border: 1px solid #d0d0d0;
+    display: none;
+}
+
+.accordion.is-open .accordion__content {
+    display: block;
+}

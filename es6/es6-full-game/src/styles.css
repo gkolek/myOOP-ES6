@@ -1,0 +1,24 @@
+.game-container {
+    display: flex;
+}
+
+.card {
+    width: 100px;
+    padding: 20px;
+    background-color: gray;
+    border: 2px solid #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card:hover {
+    border: 2px solid blue;
+}
+
+.card.is-invisible {
+    background-color: #000;
+}
+
+.card.is-complete {
+    background-color: green;
+}
